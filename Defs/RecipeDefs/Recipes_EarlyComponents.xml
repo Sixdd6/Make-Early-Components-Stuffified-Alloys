@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef>
+    <defName>ElectricSmithyComponent</defName>
+    <label>Make Component</label>
+    <description>Make a component, expensive but vital.</description>
+    <jobString>Making component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>7000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BaseMetals</li>
+            <li>MetalAlloys</li>
+          </categories>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <Component>1</Component>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BaseMetals</li>
+        <li>MetalAlloys</li>
+      </categories>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+ <RecipeDef>
+    <defName>FueledSmithyComponent</defName>
+    <label>Make Component</label>
+    <description>Make a component.</description>
+    <jobString>Making component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>9000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BaseMetals</li>
+            <li>MetalAlloys</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <Component>1</Component>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BaseMetals</li>
+        <li>MetalAlloys</li>
+      </categories>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>MakeComponent</defName>
+    <label>Make Component</label>
+    <description>Make a component.</description>
+    <jobString>Making component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>3500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BaseMetals</li>
+            <li>MetalAlloys</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BaseMetals</li>
+        <li>MetalAlloys</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Component>1</Component>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ComponentAssemblyBench</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</RecipeDefs>
