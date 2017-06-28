@@ -15,8 +15,7 @@
       <li>
         <filter>
           <categories>
-            <li>BaseMetals</li>
-            <li>MetalAlloys</li>
+            <li>CAL_Metals</li>
           </categories>
         </filter>
         <count>25</count>
@@ -27,8 +26,7 @@
     </products>
     <fixedIngredientFilter>
       <categories>
-        <li>BaseMetals</li>
-        <li>MetalAlloys</li>
+        <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
@@ -51,8 +49,7 @@
       <li>
         <filter>
           <categories>
-            <li>BaseMetals</li>
-            <li>MetalAlloys</li>
+            <li>CAL_Metals</li>
           </categories>
         </filter>
         <count>50</count>
@@ -63,8 +60,7 @@
     </products>
     <fixedIngredientFilter>
       <categories>
-        <li>BaseMetals</li>
-        <li>MetalAlloys</li>
+        <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
@@ -87,8 +83,7 @@
       <li>
         <filter>
           <categories>
-            <li>BaseMetals</li>
-            <li>MetalAlloys</li>
+            <li>CAL_Metals</li>
           </categories>
         </filter>
         <count>5</count>
@@ -96,8 +91,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <categories>
-        <li>BaseMetals</li>
-        <li>MetalAlloys</li>
+        <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
     <products>
