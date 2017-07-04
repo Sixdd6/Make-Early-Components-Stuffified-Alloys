@@ -15,6 +15,7 @@
       <li>
         <filter>
           <categories>
+            <li>Metals</li>
             <li>CAL_Metals</li>
           </categories>
         </filter>
@@ -26,6 +27,7 @@
     </products>
     <fixedIngredientFilter>
       <categories>
+        <li>Metals</li>
         <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
@@ -49,6 +51,7 @@
       <li>
         <filter>
           <categories>
+            <li>Metals</li>
             <li>CAL_Metals</li>
           </categories>
         </filter>
@@ -60,6 +63,7 @@
     </products>
     <fixedIngredientFilter>
       <categories>
+        <li>Metals</li>
         <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
@@ -83,6 +87,7 @@
       <li>
         <filter>
           <categories>
+            <li>Metals</li>
             <li>CAL_Metals</li>
           </categories>
         </filter>
@@ -91,6 +96,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <categories>
+        <li>Metals</li>
         <li>CAL_Metals</li>
       </categories>
     </fixedIngredientFilter>
