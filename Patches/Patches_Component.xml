@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/RecipeDef[defName="MakeComponent"]</xpath>
+		<value>
+			<RecipeDef>
+				<defName>MakeComponent</defName>
+				<label>Make Component</label>
+				<description>Make a component.</description>
+				<jobString>Making component.</jobString>
+				<workSpeedStat>SmithingSpeed</workSpeedStat>
+				<effectWorking>Cremate</effectWorking>
+				<soundWorking>Recipe_Cremate</soundWorking>
+				<workAmount>3500</workAmount>
+				<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+				<ingredients>
+					<li>
+						<filter>
+							<categories>
+								<li>Metals</li>
+								<li>CAL_Metals</li>
+							</categories>
+						</filter>
+						<count>5</count>
+					</li>
+				</ingredients>
+				<fixedIngredientFilter>
+					<categories>
+						<li>Metals</li>
+						<li>CAL_Metals</li>
+					</categories>
+				</fixedIngredientFilter>
+				<products>
+					<Component>1</Component>
+				</products>
+				<workSkill>Crafting</workSkill>
+				<recipeUsers>
+					<li>ComponentAssemblyBench</li>
+				</recipeUsers>
+			</RecipeDef>
+		</value>
+	</Operation>
+
+</Patch>
